@@ -1,0 +1,723 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Lato&display=swap');
+
+
+/*font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Lato', sans-serif;*/
+
+
+html {background-color: #cecece;
+}
+
+/*-----------------   GERAL  --------------------*/
+
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body {
+    background-color: #f1f1f1;
+    font-size-adjust: 100%;
+    width: 960px;
+    margin: 0px auto ;
+}
+
+.title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0px;
+    font-family:  'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.subtitle, h2 {
+    font-size: 1.2em;
+    font-family:  'Lato', sans-serif;
+}
+
+
+p, a {
+    font-family:  'Frank Ruhl Libre', serif, Aril, Helvetca;
+    font-size: 1.0em;
+    text-align: justify;
+    margin: 0.5em 0em;
+}
+
+.fontes{
+    text-decoration: none;
+    color: #4da5d6;
+    cursor: pointer;
+}
+
+.fontes:hover{
+    color: #00a5ff;
+    text-decoration: 
+}
+
+
+
+/*-----------------   HEADER PARA TODAS AS PAGINAS  --------------------*/
+
+
+header {
+    /*background-color: #ffa;*/
+    background-image: url("../images/header.jpg");  
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.logo{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    width: 100px;
+    height: 110px;
+}
+
+nav{
+    margin: 10px;
+    padding: 46px 10px;
+    float: right;
+}
+
+nav ul{
+    text-align: right;
+}
+
+ul li { 
+    display: inline; 
+}
+
+ul li a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+ul li a:hover {
+    color: #028edb;
+    transition: all 0.5s;
+}
+
+
+/*-----------------    BANNER E RODAPÉ PARA TODAS AS PAGINAS   --------------------*/
+
+footer{
+    /*background-color: #999;*/
+    /*margin: 10px;*/
+    padding: 20px;
+}
+
+.banner img{
+    margin: 0 ;
+    width: 960px;
+    height: 250px;
+    clear: both;
+}
+.footer1{
+    float: left;
+    padding-right: 50px;
+}
+
+.footer1 nav{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer1 nav ul{
+    text-align: left;
+}
+
+.footer1 ul li { 
+    display: grid; 
+}
+
+.footer1 ul li a {
+    color: #000;
+    background-color: unset;
+    padding: 0px;
+    text-decoration: none;
+    margin: 0.3em;
+    border: none;
+}
+
+.footer1 ul li a:hover {
+    color: #028edb;
+    transition: all 0.1s;
+}
+
+.footer2{
+    float: left;
+    clear: none;
+    margin: 0px;
+    padding-right: 50px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.copy{
+    clear: both;
+    padding: 10px 0px;
+}
+.copy a{
+    text-decoration: none;
+    color: #000;
+}
+.copy a:hover{
+    text-decoration: none;
+    color: #028edb;
+}
+
+
+
+/*-----------------   BLOCO MAIN - HOME.HTML  --------------------*/
+
+
+
+.article-main-home {
+    width: 450px;
+    padding: 20px;
+    float: right;
+    /*background-color: #aa1;*/
+}
+
+.aside-main-home{
+    width: 430px;
+    padding: 20px;
+    float: left;
+    /*background-color: #ab5;*/
+}
+
+.img-maior-main-home{
+    float: left;
+    top: 20px;
+    position: relative;
+    width: 210px; 
+    height: 400px;
+}
+
+.img-menor-main-home{
+    float: right;  
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    padding: 10px 0px;
+}
+
+/*-----------------   BLOCO SECTION 1 - HOME.HTML  --------------------*/
+
+.section1-home, .section2-home {
+    clear: both;
+}
+
+.section1-home aside{
+    float: right;
+    clear: both;
+    width: 430px;
+    /*background-color: #ff1;  */
+    /*margin: 10px;*/
+    padding: 20px; 
+}
+
+.section1-home aside img{
+    width: 430px;
+    height: 400px;  
+}
+
+.dados{
+   
+    width: 470px;
+    /*background-color: #ababab;*/
+    float: left;
+}
+.dados aside{
+    width: 80px;
+    float: left;
+}
+.dados article{
+    width: 270px;
+    float: right;
+    margin: 20px 10px;
+    word-wrap: break-word;
+
+}
+
+.section1-home .dados img{
+    width: 150px;
+    height: 80px;
+}
+
+
+/*-----------------   BLOCO SECTION 2 - HOME.HTML  --------------------*/
+
+
+.article-section2-home img{
+    float: left;
+    padding-right: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.article-section2-home{
+    /*margin: 10px;*/
+    padding: 20px;
+    /*background-color: #ebebeb;*/
+}
+
+
+
+/*-----------------    FIM DA HOME    --------------------*/
+
+
+/*-----------------   BLOCO MAIN - AUTOR.HTML  --------------------*/
+
+.article-main-autor {
+    width: 480px;
+    padding: 20px;
+    float: right;
+    /*background-color: #ab5;*/
+}
+
+.aside-main-autor{
+    width: 400px;
+    padding: 20px;
+    float: left;
+    /*background-color: #ab5;*/
+}
+
+.aside-main-autor img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    /*background-color: #ab5;*/
+}
+
+
+/*-----------------   BLOCO SECTION1 PREMIOS- AUTOR.HTML  --------------------*/
+
+.section1-autor-premios{
+    /*background-color: #abacad;*/
+    clear: both;
+    padding: 20px;
+}
+
+.section1-autor-premios  h1{
+    text-align: center;
+}
+.section1-autor-premios  p{
+    text-align: center;
+}
+
+.section1-autor-premios .thumb{
+    text-align: center;
+}
+
+.section1-autor-premios .thumb img{
+    width: 150px;
+    height: 80px;
+    /*padding: 20px 0px 0px 0px;*/
+    display: inline-block;
+    margin: auto;
+}
+
+/*-----------------   BLOCO SECTION2 GALERY- AUTOR.HTML  --------------------*/
+
+.section2-autor-premios{
+    /*background-color: #abacad;*/
+    clear: both;
+    padding: 10px;
+}
+
+.section2-autor-premios aside h1{
+    text-align: center;
+}
+
+.section2-autor-premios aside p{
+    text-align: center;
+}
+
+.section2-autor-premios .galery{
+    text-align: center;
+}
+
+.section2-autor-premios .galery a{
+    display: inline-block;
+}
+
+.section2-autor-premios .galery img{
+    width: 290px;
+    height: 200px;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+.aside-section2-home{
+    clear: both;
+    padding: 20px;
+}
+
+
+
+
+/*-----------------    FIM DO AUTOR    --------------------*/
+
+
+/*-----------------   BLOCO MAIN - PERSONAGEM/OBRA.HTML  --------------------*/
+
+.article-main-personagem-obra{
+    float: left;
+    padding: 20px;
+    /*background-color: aqua;*/
+}
+
+.article-main-personagem-obra img{
+    width: 530px; 
+    height: 500px;
+}
+.article-main-personagem-obra p{
+    word-wrap: break-word;
+    width: 530px;
+}
+
+.aside-main-personagem-obra{
+   float: left;
+    padding: 20px;
+    width: 350px;
+    /*background-color: aliceblue;*/
+}
+
+caption{
+    font-size: 1.5em;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+}
+
+table, td, th {  
+  border-bottom: 1px solid #028edb;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 15px;
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+}
+td{
+    font-family:  'Frank Ruhl Libre', serif, Aril, Helvetca;
+    font-size: 1.0em;
+    text-align: justify;
+    padding: 15px;
+}
+thead{
+    background-color: #028edb;
+    color: #fff;
+}
+.negrito{
+    font-weight: 700;
+}
+
+
+
+
+/*-----------------   THUMBNAILS - PERSONAGEM/OBRA.HTML  --------------------*/
+
+.thumb{
+    clear: both;
+    padding: 20px;
+}
+
+.thumb a{
+    margin: 0px;
+    font-family: unset;
+    display: inline-block;
+}
+
+.thumb img{
+    width: 205px; 
+    height: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px #028edb;
+}
+
+.sem-borda img{
+    width: 205px; 
+    height: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    border:none;
+}
+
+.thumb img:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+/*-----------------    FIM DA PERSONAGEM/OBRA    --------------------*/
+
+
+/*-----------------   BLOCO MAIN - PERSONAGENS/OBRAS.HTML  --------------------*/
+
+.article-main-obra-personagem{
+    padding: 20px;
+    /*background-color: #acacac;*/
+
+}
+
+.section-article-main-obra-personagem{
+    width: 245px;
+    /*background-color: aliceblue;*/
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 .5em #000;;
+    float: left;
+    margin: 0px 10px 15px 10px;
+    position: relative;
+}
+
+
+.article-main-obra-personagem h1{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+.section-article-main-obra-personagem img{
+    width: 285px;
+    height: 280px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.section-article-main-obra-personagem a{
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid #000;
+    color: #000;
+}
+.section-article-main-obra-personagem p{
+    display: -webkit-box;               /*display em caixa -  webkit para compatibilidade*/
+    -webkit-line-clamp: 6;              /*Trunca a quantidade*/ 
+    -webkit-box-orient: vertical;       /*orientação da caixa*/
+    overflow: hidden;                   /*esconde o que passar da box*/
+    text-overflow: ellipsis;            /*coloca a elipse no  texto que transpassar*/
+}
+.section-article-main-obra-personagem a:hover{
+    border: 1px solid #028edb;
+    color: #028edb;
+}
+
+.texto {
+  display: none;
+}
+.texto h1{
+    position: relative;
+    top: 120px;
+    font-family:  Roboto, Arial, Helvetca;
+    font-size: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.texto {
+    background: rgba(0, 0, 0, 0.5);
+    width: 285px;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+}
+
+.section-article-main-obra-personagem:hover .texto{
+    display: block;
+    
+}
+/*-----------------    FIM DA PERSONAGENS/OBRAS    --------------------*/
+
+
+/*-----------------   BLOCO MAIN - QUEMS SOMOS.HTML  --------------------*/
+
+.article-main-quem-somos {
+    /*background-color: #f7f7f7;*/
+    padding: 20px;
+}
+.aside-main-quem-somos{
+    padding: 20px 10px;
+}
+
+.article-main-quem-somos h1{
+    width: 100px;
+    padding: 40px;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.article-main-quem-somos p{
+    padding: 20px 0px; 
+    float: right;
+    word-wrap: break-word;
+    width: 700px;
+}
+
+.aside-main-quem-somos img{
+    width: 293px;
+    height: 400px; 
+}
+
+.aside-main-quem-somos figure{
+    float: left;
+    margin: 10px;
+}
+
+.aside-main-quem-somos figcaption{
+    width: 272px;
+    font-family:  'Frank Ruhl Libre', serif, Arial, Helvetca;
+    font-size: 1.0em;
+    text-align: justify;
+    margin: 0.5em 0em;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+
+
+/*-----------------    FIM DA QUEM SOMOS    --------------------*/
+
+small{font-size:8px;}
+/*-----------------   BLOCO MAIN - CONTATO.HTML  --------------------*/
+
+.article-main-contato {
+    /*background-color: #f7f7f7;*/
+    padding: 20px;
+    height: 50px;
+    width: 400px;
+    float: right;
+}
+
+.aside-main-contato{
+    width: 480px;
+    /*background-color: #562121;*/
+    padding: 20px;
+}
+
+.article-main-contato {
+    /*background-color: #f7f7f7;*/
+    padding: 20px;
+}
+
+.aside-main-contato h1{
+    width: 150px;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+.aside-main-contato p{
+    padding: 20px 0px; 
+    float: left;
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.form{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 375px;
+    font-family: arial;
+    border: 1px solid;
+
+}
+input, textarea{
+    background: none;
+}
+
+input[type=submit] {
+  color: #000;
+  padding: 12px 20px;
+  border: solid 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+input[type=submit]:hover {
+border: 1px solid #028edb;
+    color: #028edb;
+}
+
+
+
+/*-----------------   BLOCO SECTION2 - CONTATO.HTML  --------------------*/
+
+.section2-contato{
+    clear: both;
+    /*background-color: #d5d5d5;*/
+    padding: 20px;
+}
+
+.section2-contato article{
+    float: right;
+}
+
+.section2-contato aside{
+    width: 480px;
+    /*background-color: #562121;*/
+
+}
+
+.section2-contato h1{
+    width: 150px;
+    float: left;
+    position: relative;
+    top: 25px;
+}
+
+.section2-contato aside p{
+    padding: 20px 0px; 
+    float: left;
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.section2-contato aside ul li img{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+hr{
+    border: 0.5px solid #028edb;
+    clear: both;
+}
